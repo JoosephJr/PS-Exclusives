@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Playstation Ex-clusives</title>
+  <link rel="stylesheet" rel="preload" href="styles/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="./assets/js/loader.js"></script>
+</head>
+
+<body>
+  <div class="loader">
+    <div class="spin"></div>
+  </div>
+  <main class="hiden">
+
+    <nav>
+      <div id="hamburger">
+        <div class="linha" id="linha1"></div>
+        <div class="linha" id="linha2"></div>
+        <div class="linha" id="linha3"></div>
+      </div>
+      <ul>
+        <li><a href="#home">
+            <i class="fa-solid fa-house"></i>
+            Home</a></li>
+        <li><a href="#pag2">
+            <i class="fa-brands fa-playstation"></i>
+            Playstation</a></li>
+        <li><a href="#secao-projetos">
+            <i class="fa-solid fa-gamepad"></i>
+            Games</a></li>
+        <li><a href="#Secao-carrinho">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Carrinho</a></li>
+      </ul>
+    </nav>
+
+    <header>
+      <div class="titulo">
+        <h1>PlayStation Ex-clusives</h1>
+        <span>by José Júnior</span>
+        <a href="#pag2" class="botao">veja mais</a>
+      </div>
+
+      <section id="secao-apresentacao">
+
+        <div>
+          <img class="jogo" src="assets/images/bloodborne.jpg" alt="jogo1">
+        </div>
+        <div>
+          <img class="jogo" src="assets/images/ghost of tsushima.jpg" alt="jogo2">
+        </div>
+        <div>
+          <img class="jogo" src="assets/images/GOW_RAGNAROK.jpg" alt="jogo3">
+        </div>
+        <div>
+          <img class="jogo" src="assets/images/gt7.jpg" alt="jogo4">
+        </div>
+        <div>
+          <img class="jogo" src="assets/images/HORIZON FW.jpg" alt="jogo5">
+        </div>
+        <div>
+          <img class="jogo" src="assets/images/The-Last-of-Us-2-8.jpg" alt="jogo6">
+        </div>
+
+      </section>
+
+    </header>
+    <section id="pag2">
+
+      <div>
+        <h2>PlayStation</h2>
+        <p>O PlayStation é uma série de consoles produzida pela Sony. Na batalha contra os "caixistas", ou seja, os
+          usuários de Xbox da Microsoft, um dos grandes argumentos utilizados pelos usuários de PS são os jogos
+          exclusivos
+          que a Sony possui (ou possuia).
+          Na próxima página veremos alguns destes jogos exclusivos e seus protagonistas.
+        </p>
+        <a href="#secao-projetos" class="botao">próximo jogo</a>
+      </div>
+
+      <img id="personagem1" class="only-large" src="assets/images/logo-ps.png" alt="logo ps">
+
+    </section>
+
+    <section id="secao-projetos">
+      <ul>
+        <li id="protagonista1">
+          <div class="card">
+            <div class="card-text">
+              <h2>The Last of Us - Part II</h2>
+              <h3>Ellie Williams</h3>
+              <p>Na jornada de TLOU Part II, Ellie busca sua vingança na cidade de Seattle contra Abby e seus amigos da
+                WLF, assassinos da figura paterna de Ellie (Joel).
+              </p>
+            </div>
+          </div>
+        </li>
+        <li id="protagonista2">
+          <div class="card">
+            <div class="card-text">
+              <h2>God of War - Ragnarok</h2>
+              <h3>Kratos</h3>
+              <p>Em GOW Ragnarok, Kratos e seu filho Atreus são visitados por Odin e Thor. Odin busca impedir o
+                Ragnarok,
+                que causará a sua derrota.</p>
+            </div>
+          </div>
+        </li>
+        <li id="protagonista3">
+          <div class="card">
+            <div class="card-text">
+              <h2>Ghost of Tsushima</h2>
+              <h3>Jin Sakai</h3>
+              <p>Na história de GOT, o Jin Sakai é obrigado a contrariar o código samurai como um recurso frente à
+                guerra
+                na Ilha de Tsushima no Japão.</p>
+            </div>
+          </div>
+        </li>
+        <li id="protagonista4">
+          <div class="card">
+            <div class="card-text">
+              <h2>Horizon Forbidden West</h2>
+              <h3>Aloy</h3>
+              <p>Em HFW, após a derrota de Hades no mundo pós-apocalíptico Aloy precisa explorar o Oeste Proibido para
+                impedir novas ameaças misteriosas.</p>
+            </div>
+          </div>
+        </li>
+        <li id="protagonista5">
+          <div class="card">
+            <div class="card-text">
+              <h2>Bloodborne</h2>
+              <h3>Caçador</h3>
+              <p>A história de Bloodborne se dá em uma cidade esquecida chamada Yharnam, famosa por seus remédios.
+                Isto faz com que muitos peregrinos a visitem para obter ajuda.
+                No entanto, Yharnam foi atingida por uma doença que transforma humanos em monstros.</p>
+            </div>
+          </div>
+        </li>
+
+      </ul>
+
+    </section>
+
+    <section id="Secao-carrinho">
+
+      <form action="#">
+        <h3>Carrinho</h3>
+        <label for="qtde">Qtd de Jogos</label>
+        <input type="number" id="qtde">
+
+        <label for="presente">Embalagem presente?</label>
+        <input type="checkbox" id="presente">
+
+        <label for="avatar">Avatar PSN?</label>
+        <input type="checkbox" id="avatar">
+
+        <label for="edicao">Selecionar Edição</label>
+        <div class="input-group">
+          <input type="radio" id="edicao-deluxe" name="edicao">
+          <label for="layout_sim">Edição Deluxe</label>
+          <input type="radio" id="edicao-standard" name="edicao">
+          <label for="layout_nao">Edição Standard</label>
+        </div>
+
+        <label for="poster">Poster de Colecionador</label>
+        <input type="range" id="poster" min="0" max="5">
+        <output>R$0,00</output>
+      </form>
+
+    </section>
+  </main>
+</body>
+<script src="./assets/js/script.js"></script>
+<script src="./assets/js/menu.js"></script>
+
+</html>
