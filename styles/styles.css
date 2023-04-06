@@ -55,7 +55,7 @@ body {
 #hamburger{
   display: flex;
   position: fixed;
-  right: 5rem;
+  right: 2rem;
   top: 2rem;
   height: 3rem;
   width: 3rem;
@@ -130,6 +130,7 @@ header::before {
 }
 
 .titulo {
+  margin-left: 6rem;
   -webkit-animation: puff-in-center 2.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
   animation: puff-in-center 2.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
 }
@@ -203,7 +204,6 @@ p {
 header .h1,
 .span {
   padding-left: 70%;
-  padding-top: 15%;
   gap: 2rem;
 }
 
@@ -233,7 +233,6 @@ div {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  padding-left: 15%;
 }
 
 #secao-apresentacao {
@@ -257,9 +256,11 @@ div {
 }
 
 #secao-projetos {
+  display: flex;
   background-color: #1d1e20;
-  height: 75vh;
+  height: auto;
   justify-content: space-evenly;
+  overflow: hidden;
 }
 
 #secao-projetos ul {
@@ -616,7 +617,7 @@ div {
   grid-column: 2;
 }
 
-@media (max-width: 910px ) {
+@media (max-width: 1200px ) {
   #secao-projetos ul{
     flex-direction: column;
   }
@@ -628,6 +629,9 @@ div {
 
 @media (width < 888px) {
   .only-large {
+    display: none;
+  }
+  .jogo{
     display: none;
   }
 }
